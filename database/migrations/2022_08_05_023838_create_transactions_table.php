@@ -9,12 +9,12 @@ return new class extends Migration
     /**
      * Run the migrations.
      *
-     * @return vointeger
+     * @return void
      */
     public function up()
     {
         Schema::create('transactions', function (Blueprint $table) {
-            $table->string('status');
+            $table->id();
             $table->foreignId('product_id')->constrained();
             $table->foreignId('user_id')->constrained();
             $table->integer('quantity');
@@ -27,7 +27,7 @@ return new class extends Migration
     /**
      * Reverse the migrations.
      *
-     * @return vo
+     * @return void
      */
     public function down()
     {
