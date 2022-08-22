@@ -81,7 +81,7 @@ class Firstseeder extends Seeder
         Product::create([
             "name" => "Chitato",
             "price" => "11500",
-            "thumbnail" => "citato.jpg",
+            "thumbnail" => "https://cf.shopee.co.id/file/7d505ca383100e4b9da6ce7e29347a3d",
             "desc" => "enak tau",
             "category_id" => 1
         ]);
@@ -89,7 +89,7 @@ class Firstseeder extends Seeder
         Product::create([
             "name" => "indomie goreng",
             "price" => "3500",
-            "thumbnail" => "indomie.jpg",
+            "thumbnail" => "https://asset.kompas.com/crops/PsiyOF2677ryklr4Z1QugJcOgiU=/33x0:988x637/750x500/data/photo/2021/11/16/61935d1d8db87.jpg",
             "desc" => "lejat bergiji",
             "category_id" => 2
         ]);       
@@ -97,7 +97,7 @@ class Firstseeder extends Seeder
         Product::create([
             "name" => "pocari sweat",
             "price" => "7000",
-            "thumbnail" => "pocari.jpg",
+            "thumbnail" => "https://www.pocarisweat.id/assets/imgs/home-banner-img.png",
             "desc" => "segar",
             "category_id" => 3
         ]);     
@@ -105,7 +105,7 @@ class Firstseeder extends Seeder
         Product::create([
             "name" => "Scarlett Whitening",
             "price" => "52000",
-            "thumbnail" => "scarlett.jpg",
+            "thumbnail" => "https://cf.shopee.co.id/file/7ebfdee00129bd6c0a53219905d00d3f",
             "desc" => "Putih berkilau",
             "category_id" => 4
         ]);
@@ -113,7 +113,7 @@ class Firstseeder extends Seeder
         Product::create([
             "name" => "Bodrex",
             "price" => "5000",
-            "thumbnail" => "bordrex.jpg",
+            "thumbnail" => "https://www.temposcangroup.com/files/product/bodrex-extra-rev.jpg",
             "desc" => "Obat sakit kepala",
             "category_id" => 5
         ]);

@@ -22,7 +22,7 @@
                                                     <div class="col col-2" data-key="{{ $index }}">
                                                         <div class="card">
                                                             <div class="card-header">
-                                                                <img src="{{ $product->thumbnail }}"/>
+                                                                <img src="{{ $product->thumbnail }}" width='150px' />
                                                             </div>
                                                             <div class="card-body">
                                                                 <h5>{{ $product->name }}</h5>
